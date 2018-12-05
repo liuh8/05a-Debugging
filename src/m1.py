@@ -349,12 +349,10 @@ def broken_7(n, point, length, distance_between_lines, window):
         line.attach_to(window)
         left = rg.Point(left.x, left.y + distance)
         right = rg.Point(right.x, right.y + distance)
+        window.render(0.5)
 
-    return left
-    return right
 
-    window.render(0.5)
-    window.close_on_mouse_click()
+
 
 
 # -----------------------------------------------------------------------------
